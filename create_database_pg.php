@@ -16,6 +16,6 @@ $conexao = pg_connect(
     ." user".$usuario
     ." password=".$senha) or die ("Não foi possível conectar PostGreSQL");
 echo "Conexão efetuada com sucesso!!";
-
+//http://www.rafaelwendel.com/2011/07/como-importar-dados-de-um-arquivo-xml/
 ?>
 
