@@ -13,3 +13,8 @@ Trabalho Topicos em BD - XML Migrate
   zetcode.com/db/postgresqlphp/intro/
   br2.php.net
   w3guy.com/integrate-postgresql-database-xampp-windows/
+
+#Máquina utilizada
+  Windows 7 x64
+  Intel Core i3 3217U
+  8GB RAM DDR3
