@@ -7,15 +7,8 @@
  * Time: 11:35
  */
 
-$servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$dbname = "topicosbd";
-$conexao = pg_connect(
-    "host=".$servidor
-    ." user".$usuario
-    ." password=".$senha) or die ("Não foi possível conectar PostGreSQL");
-echo "Conexão efetuada com sucesso!!";
+include 'connect_pg.php'
+
 //http://www.rafaelwendel.com/2011/07/como-importar-dados-de-um-arquivo-xml/
 ?>
 

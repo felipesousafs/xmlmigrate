@@ -6,17 +6,7 @@
  * Time: 09:40
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "topicosbd";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+include 'connect_mysql.php';
 
 // sql to create table
 

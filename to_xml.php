@@ -5,36 +5,48 @@
  * Date: 06/06/17
  * Time: 08:46
  */
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "topicosbd";
+include 'connect_mysql.php';
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-$sql = "SELECT `matricula`, `nome`, `email`, `cod_curso` FROM `alunos`";
+$sql = "SELECT * FROM `cursos`";
 $result = mysqli_query($conn, $sql);
 
-$xml = "<?xml version='1.0' encoding='UTF-8'?>n";//cabeçalho do arquivo
-$xml .= "<topicosbd> n";
+$xml = "";
+$xml .= "<topicosbd> \n";
 
 while($reg = mysqli_fetch_assoc($result)){
-    $xml .= "t<alunos>n";
-    $xml .= "tt<matricula>$reg[matricula]</matricula>n";
-    $xml .= "tt<nome>$reg[nome]</nome>n";
-    $xml .= "tt<email>$reg[email]</email> n";
-    $xml .= "tt<codcurso>$reg[cod_curso]</codcurso> n";
-    $xml .= "t</alunos>n";
+    $xml .= "\t<cursos>\n";
+    $xml .= "\t\t<codigo>$reg[codigo]</codigo>\n";
+    $xml .= "\t\t<descricao>$reg[descricao]</descricao>\n";
+    $xml .= "\t\t<carga_horaria>$reg[carga_horaria]</carga_horaria> \n";
+    $xml .= "\t</cursos>\n";
 }
 $xml .= "</topicosbd>";
 
-$ponteiro = fopen('backup.xml', 'w'); //cria um arquivo com o nome backup.xml
+$ponteiro = fopen('cursos.xml', 'w'); //cria um arquivo com o nome cursos.xml
 fwrite($ponteiro, $xml); // salva conteúdo da variável $xml dentro do arquivo backup.xml
 
 $ponteiro = fclose($ponteiro); //fecha o arquivo
 
+$sql = "SELECT * FROM `alunos`";
+$result = mysqli_query($conn, $sql);
+
+$xml = "";
+$xml .= "<topicosbd> \n";
+
+while($reg = mysqli_fetch_assoc($result)){
+    $xml .= "\t<alunos>\n";
+    $xml .= "\t\t<matricula>$reg[matricula]</matricula>\n";
+    $xml .= "\t\t<nome>$reg[nome]</nome>\n";
+    $xml .= "\t\t<email>$reg[email]</email> \n";
+    $xml .= "\t\t<cod_curso>$reg[cod_curso]</cod_curso> \n";
+    $xml .= "\t</alunos>\n";
+}
+$xml .= "</topicosbd>";
+
+$ponteiro = fopen('alunos.xml', 'w'); //cria um arquivo com o nome alunos.xml
+fwrite($ponteiro, $xml); // salva conteúdo da variável $xml dentro do arquivo backup.xml
+
+$ponteiro = fclose($ponteiro); //fecha o arquivo
+
+echo "Export done!"."<br>";
 ?>

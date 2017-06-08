@@ -1,0 +1,52 @@
+<topicosbd> 
+	<cursos>
+		<codigo>1</codigo>
+		<descricao>PHP</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>2</codigo>
+		<descricao>Ruby</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>3</codigo>
+		<descricao>Ruby + Rails</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>4</codigo>
+		<descricao>Java</descricao>
+		<carga_horaria>40</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>5</codigo>
+		<descricao>Python</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>6</codigo>
+		<descricao>Python + Django</descricao>
+		<carga_horaria>90</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>7</codigo>
+		<descricao>Front-End com CSS + HTML5</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>8</codigo>
+		<descricao>Gestão de projetos</descricao>
+		<carga_horaria>120</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>9</codigo>
+		<descricao>Python + Flesk</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+	<cursos>
+		<codigo>10</codigo>
+		<descricao>Banco de Dados MariaDB</descricao>
+		<carga_horaria>60</carga_horaria> 
+	</cursos>
+</topicosbd>

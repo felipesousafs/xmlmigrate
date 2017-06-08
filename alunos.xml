@@ -1,0 +1,62 @@
+<topicosbd> 
+	<alunos>
+		<matricula>1</matricula>
+		<nome>Aluno 1</nome>
+		<email>email1@gmail.com</email> 
+		<cod_curso>8</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>2</matricula>
+		<nome>Aluno 2</nome>
+		<email>aluno2@gmail.com</email> 
+		<cod_curso>4</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>3</matricula>
+		<nome>Aluno 3</nome>
+		<email>aluno3@gmail.com</email> 
+		<cod_curso>9</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>4</matricula>
+		<nome>Aluno 4</nome>
+		<email>aluno4@gmail.com</email> 
+		<cod_curso>1</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>5</matricula>
+		<nome>Aluno 5</nome>
+		<email>aluno5@gmail.com</email> 
+		<cod_curso>10</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>6</matricula>
+		<nome>Aluno 6</nome>
+		<email>aluno6@gmail.com</email> 
+		<cod_curso>9</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>7</matricula>
+		<nome>Retardado</nome>
+		<email>aluno7@gmail.com</email> 
+		<cod_curso>4</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>8</matricula>
+		<nome>Aluno 8</nome>
+		<email>aluno8@gmail.com</email> 
+		<cod_curso>1</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>9</matricula>
+		<nome>Aluno 9</nome>
+		<email>aluno9@gmail.com</email> 
+		<cod_curso>6</cod_curso> 
+	</alunos>
+	<alunos>
+		<matricula>10</matricula>
+		<nome>Aluno 10</nome>
+		<email>aluno10@gmail.com</email> 
+		<cod_curso>10</cod_curso> 
+	</alunos>
+</topicosbd>
