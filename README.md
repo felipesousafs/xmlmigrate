@@ -5,6 +5,8 @@
 - Isnaba
 - Leandro
 - Railson
+- Angelo
+- Chagas
 
 ## **Ferramentas utilizadas**
 - XAMPP (Ambiente de desenvolvimento pre-configurado PHP + MySQL + Apache)
