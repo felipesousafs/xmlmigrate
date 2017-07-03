@@ -3,7 +3,7 @@
 
 ## **Ferramentas utilizadas**
 - XAMPP (Ambiente de desenvolvimento pre-configurado PHP + MySQL + Apache)
-- PostgreSQL database integrada manualmente ao XAMPP
+- PostgreSQL database, com PgAdmin integrado manualmente ao XAMPP
 - Jetbrains PHP Storm release 2017.1.4(PHP IDE)
 - Brackets v1.9 (Text editor)
 
