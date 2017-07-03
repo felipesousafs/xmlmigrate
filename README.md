@@ -1,5 +1,10 @@
 # xmlmigrate
 > Trabalho Topicos em BD - XML Migrate
+- Felipe Sousa
+- Josimar Alves
+- Isnaba
+- Leandro
+- Railson
 
 ## **Ferramentas utilizadas**
 - XAMPP (Ambiente de desenvolvimento pre-configurado PHP + MySQL + Apache)
